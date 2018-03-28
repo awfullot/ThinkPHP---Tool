@@ -27,7 +27,6 @@ class Tools {
      * @param $str
      * @param string $auth_key
      * @return string
-     * @author zhaoxiang <zhaoxiang051405@gmail.com>
      */
     public static function userMd5($str, $auth_key = '') {
         if (!$auth_key) {
@@ -41,7 +40,6 @@ class Tools {
      * 判断当前用户是否是超级管理员
      * @param string $uid
      * @return bool
-     * @author zhaoxiang <zhaoxiang051405@gmail.com>
      */
     public static function isAdministrator($uid = '') {
         if (!empty($uid)) {
@@ -78,7 +76,6 @@ class Tools {
      * @param array $res
      * @param string $key 允许指定索引值
      * @return array
-     * @author zhaoxiang <zhaoxiang051405@gmail.com>
      */
     public static function buildArrFromObj($res, $key = '') {
         $arr = [];
@@ -98,7 +95,6 @@ class Tools {
      * 将二维数组变成指定key
      * @param $array
      * @param $keyName
-     * @author zhaoxiang <zhaoxiang051405@gmail.com>
      * @return array
      */
     public static function buildArrByNewKey($array, $keyName = 'id') {
